@@ -1,0 +1,63 @@
+body{
+background-image:url("https://wallpaperaccess.com/full/1209573.jpg");
+  background-position:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  font-family:arial;
+}
+header img{
+  width:100px;
+}
+header{
+  background:white;
+  margin:-8px;
+  display:flex;
+  justify-content:space-between;
+  text-align:center;
+}
+.menubar ul li{
+list-style:none;
+display:inline-block;
+background:white;
+width:120px;
+padding:10px;
+}
+.menubar a{
+ text-decoration:none;
+ color:black;
+ font-weight:bold;
+}
+.menubar a:hover{
+  color:#7a12d4;
+}
+.menubar ul li:hover{
+ border:2px solid #7a12d4;
+ border-radius:20px;
+}
+.list1{
+  display:none;
+}
+.menubar ul li:hover .list1{
+  display:block;
+ position:absolute;
+}  
+
+.menubar ul li:hover .list1 a{
+ display:block;
+ font-size:75%;
+}
+.menubar ul li:hover .list1 ul {
+  margin-top:30px;
+}
+.menubar ul li:hover .list1 ul li{
+  border-bottom:1px dotted black;
+  padding:10px;
+  margin-left:-50px;
+}
+.menubar ul li:hover .list1 a:hover{
+  color:#7a12d4;
+}
+.menubar ul li:hover .list1 ul li:hover{
+  border:none;
+  border-radius:0px;
+}
